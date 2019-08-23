@@ -1,7 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="b06b5abf-197c-4f65-8945-e615936c7aba" name="Default Changelist" comment="" />
+    <list default="true" id="b06b5abf-197c-4f65-8945-e615936c7aba" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bai1.html" beforeDir="false" afterPath="$PROJECT_DIR$/bai1.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bai3.html" beforeDir="false" afterPath="$PROJECT_DIR$/bai3.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bai4.html" beforeDir="false" afterPath="$PROJECT_DIR$/bai4.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/baitap2.html" beforeDir="false" afterPath="$PROJECT_DIR$/baitap2.html" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -15,10 +21,16 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectId" id="1PlQzrXfJWVlX5bJCthCShygYgD" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="PropertiesComponent">
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../ung-dung-chuyen-doi-tien-te" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -32,12 +44,16 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="JavaScript Debug.baitap2.html">
     <configuration name="bai1.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/baitap-bien-kieudulie-toantu/bai1.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
+    <configuration name="baitap2.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/baitap-bien-kieudulie-toantu/baitap2.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JavaScript Debug.baitap2.html" />
         <item itemvalue="JavaScript Debug.bai1.html" />
       </list>
     </recent_temporary>
@@ -52,11 +68,28 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1566446468228</updated>
-      <workItem from="1566446469886" duration="3413000" />
+      <workItem from="1566446469886" duration="4330000" />
+      <workItem from="1566465195939" duration="58000" />
+      <workItem from="1566465292516" duration="3735000" />
+      <workItem from="1566521535748" duration="523000" />
+      <workItem from="1566522385066" duration="149000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
 </project>

@@ -5,10 +5,17 @@
     <title>Title</title>
 </head>
 <body>
+<form>
+    <input type = "button" value = "tinh toan" onclick="dientich()">
+<input type = text id = "bankinh">
+</form>
+
 <script>
-    let R = parseInt(prompt(" nhap ban kinh hinh tron"));
-    let C = R*R*3.14;
-    alert ("dien tich hinh tron la " + C);
+    function dientich() {
+        let R = parseInt(document.getElementById("bankinh").value);
+        let S = R * R * 3.14;
+       document.write("dien tich hinh chu nhat la" + S);
+    }
 </script>
 
 </body>

@@ -5,17 +5,27 @@
     <title>Title</title>
 </head>
 <body>
+<form>
+    nhap diem vat ly : <input type = "text" id = "vatly">
+    nhap diem hoa hoc : <input type = "text" id = "hoahoc">
+    nhap diem sinh hoc : <input type = "text" id = "sinhhoc">
+    <input type="button" id="tong" value="tinhtoan" onclick="tinhtong();">
+    <label id="lblKetQua"></label>
+</form>
 <script>
-        let vl;
-        let hh;
-        let sh;
-        vl = parseInt(prompt(" nhap diem vat ly"));
-        hh = parseInt(prompt(" nhap diem hoa hoc"));
-        sh = parseInt(prompt(" nhap diem sinh hoc"));
-        let tong = vl + hh + sh ;
-        let diemTB = tong/3
-        alert (" tong diem 3 mon = " + tong);
-        alert (" diem trung binh 3 mon = " + diemTB);
+    function tinhtong() {
+        let vatly = parseInt(document.getElementById("vatly").value)
+        let hoahoc = parseInt(document.getElementById("hoahoc").value)
+        let sinhhoc = parseInt(document.getElementById("sinhhoc").value)
+        let tinhtong =  vatly + hoahoc + sinhhoc;
+        let diemtb = tinhtong/3;
+        document.write(" tong la " + tinhtong);
+        document.write("<br/>");
+        document.write("diem trung binh la " + diemtb);
+
+
+    }
 </script>
+
 </body>
 </html>

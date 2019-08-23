@@ -5,10 +5,17 @@
     <title>Title</title>
 </head>
 <body>
+<form>
+    <input type = "button" value = "tinh toan" onclick="chuvi()">
+    <input type = text id = "bankinh">
+</form>
+
 <script>
-    let R = parseInt(prompt(" nhap ban kinh hinh tron"));
-    let S = R*2*3.14;
-    alert ("chu vi hinh tron la " + S);
+    function chuvi() {
+        let R = parseInt(document.getElementById("bankinh").value);
+        let C = R * 2* 3.14;
+        document.write("chu vi hinh chu nhat la" + C);
+    }
 </script>
+
 </body>
-</html>

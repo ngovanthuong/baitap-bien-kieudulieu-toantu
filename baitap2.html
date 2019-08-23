@@ -5,10 +5,19 @@
     <title>Title</title>
 </head>
 <body>
+<form>
+    nhap gia tri do c <input type="text" id="C">
+    <input type="button" id="tong" value="tinhtoan" onclick = "chuyendoi()">
+    <label id="lblKetQua"></label>
+</form>
 <script>
-    let C = parseInt(prompt(" nhap gia tri do 0C"));
-    let F = (9*C)/5+32;
-    alert ("gia tri do 0F sau khi chuyen doi la " + F);
+    function chuyendoi() {
+
+        let nhietdoc = parseInt(document.getElementById("C").value)
+        let nhietdof = (nhietdoc * 9) / 5 + 32;
+        document.write(" nhiet do 0F sau khi chuyen doi la " + nhietdof);
+    }
 </script>
+
 </body>
 </html>
